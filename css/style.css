@@ -1,0 +1,509 @@
+body {
+    font-family: Tahoma;
+    margin: 0;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 1.6;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+/* Container
+====================================================*/
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    display: flex;
+ }
+
+.container_center {
+    width: 100%;
+    max-width: 1030px;
+    margin: 15px auto;
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+/* Header
+====================================================*/
+.header {
+    width: 100%;
+    height: 100px;
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+/* Nav
+====================================================*/
+.nav {
+
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+ }
+.nav_link {
+    margin-left: 15px;
+    color: #030303;
+    text-decoration: none;
+
+
+
+
+}
+.nav_link:first-child{
+    margin-left: 0;
+}
+
+
+.nav_link:hover {
+
+    text-decoration: underline;
+}
+
+/* Block-1
+====================================================*/
+
+.b1 {
+    height: 660px;
+    padding-top: 80px;
+    background: #fff url("../img/blocks/bg.jpg") center no-repeat;
+    background-size: cover;
+
+}
+
+.b1_container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+    justify-content: flex-end;
+    padding-right: 100px;
+    padding-top: 50px;
+
+
+}
+
+.b1_inner {
+
+    height: 100%;
+    width:  40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+
+.b1_title {
+    text-align: center;
+
+}
+
+.b1_window {
+    width: 100%;
+
+    border: 2px solid black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+
+.b1_title2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+
+
+}
+.b1_text {
+
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+    line-height: 15px;
+
+
+
+}
+.container-btn {
+    text-align: center;
+
+
+}
+
+/* Кнопка
+====================================================*/
+.btn {
+    display: inline-block;
+    padding: 12px 35px;
+    margin: 10px;
+
+    font-size: 20px;
+    line-height: 15px;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+    border: 1px solid black;
+
+    cursor: pointer;
+    background-color: #ffcc33;
+    border-radius: 5px;
+    transition: background .2s linear;
+
+}
+
+
+.btn:hover {
+    background-color: #fff;
+
+}
+
+.b1_title h1 {
+    line-height: 1;
+}
+
+/* Block-2
+====================================================*/
+
+.b2 {
+    height: 360px;
+    background: #78ad51;
+
+
+}
+
+
+.b2_container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.b2_inner {
+    height: 100%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.b2_title {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.b2_title h3{
+    text-align: center;
+
+
+
+    text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    font-size:32px;
+    color:rgb(255, 255, 255);
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+/* Features
+====================================================*/
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    flex-wrap: wrap;/*будут в столбик если не вмещаются*/
+
+
+}
+
+
+.features_title {
+    width: 190px;
+    text-align: center;
+    line-height: 15px;
+    padding: 10px; 0;
+
+
+}
+.features_icon {
+
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+
+
+
+/* Block-3
+====================================================*/
+.b3 {
+
+    padding-top: 50px;
+    background: #fff url("../img/blocks/bg3.jpg") center no-repeat;
+    background-size: cover;
+    height: 660px;
+
+
+
+}
+.b3_container {
+    height: 400px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.b3_title {
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.b3_title h5{
+    text-align: center;
+
+
+
+    text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    font-size:32px;
+    color:rgb(255, 255, 255);
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.b3_inner {
+    height: 700px;
+    width: 65%;
+    max-width: 1100px;
+    padding-left: 100px;
+
+
+}
+
+.list {
+font-size: 20px;
+
+
+}
+ol {
+    list-style-type: none;
+}
+
+summary {
+    font-weight: bold;
+}
+
+
+
+/* Block-4
+====================================================*/
+.b4 {
+    height: 660px;
+    padding-top: 50px;
+    background: #000;
+
+
+}
+
+.b4_container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+
+}
+
+.b4_title {
+    text-align: center;
+
+
+}
+
+.b4_title h6{
+    text-align: center;
+
+
+
+
+    text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0),2px 2px 1px rgba(0,0,0,1);
+    font-size:32px;
+    color:rgb(255, 255, 255);
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.b4_photo {
+
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+
+
+}
+.reviews_img {
+    height: 500px;
+    overflow: hidden;/*Если картинки большие чтобы не вылезали*/
+}
+
+/* Block-5
+====================================================*/
+.b5 {
+    height: 80px;
+    background: #000;
+
+
+}
+
+.b5_container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.burger {
+    display: none;
+}
+
+
+/* Media
+====================================================*/
+
+@media  (max-width: 1000px) {
+    .b1 {
+        height: 550px;
+    }
+
+
+    .b1_container {
+        padding: 0;/*media*/
+        align-items: center;/*media*/
+        justify-content: center;/*media*/
+    }
+    .b1_inner {
+        height: 70%;/*media*/
+        width: 95%;/*media*/
+        align-items: center;/*media*/
+    }
+
+    /*Шрифты*/
+    .b1_title {
+        font-size: 10px;
+
+
+
+    }
+    .b1_title2 {
+        font-size: 20px;
+    }
+    .b1_text {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btn {
+        font-size: 15px;
+    }
+
+    .b2 {
+        height: 1050px;
+        background: #78ad51;
+    }
+
+
+}
+
+@media  (max-width: 991px) {/*планшеты*/
+    /*B1*/
+    .nav {
+        display: none;
+
+    }
+    /*Burger*/
+.burger {
+    display: block;
+}
+/*Вопросы по центру*/
+    .b3_inner {
+        width: 100%;/*media*/
+        padding-left: 0px;/*media*/
+    }
+    .b3_container {
+        align-items: center;/*media*/
+    }
+
+
+}
+
+@media  (max-width: 767px) {/*мобилы*/
+    .b1_window {
+        width: 75%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
