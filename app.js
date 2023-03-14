@@ -64,12 +64,13 @@ let slider = $("#reviewsSlider");
 /*Сам слайдер*/
     slider.slick({
         infinite: true,
-        slidesToShow: 1,/*Кол-во отзывов*/
-        slidesToScroll: 1, /*Кол-во скролов*/
+        slidesToShow: 1,/*Кол-во показа слайдов*/
+        slidesToScroll: 1, /*Кол-во скролов при клике*/
         fade: false,
         arrows: false,
-        dots: true
+        dots: true/*точки*/
     });
+
 
 
 
@@ -78,17 +79,7 @@ let slider = $("#reviewsSlider");
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*Скрипт на закрытие/открытие блока Вопросы
+/*Скрипт на закрытие/открытие блока Вопросы Не работает
 * https://habr.com/ru/post/477520/
 */
 function onToggle(event) {
@@ -109,3 +100,5 @@ function onToggle(event) {
 document
     .querySelectorAll(".accordion > details")
     .forEach((el) => el.addEventListener("toggle", onToggle));
+
+
