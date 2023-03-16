@@ -67,7 +67,7 @@ let slider = $("#reviewsSlider");
         slidesToShow: 1,/*Кол-во показа слайдов*/
         slidesToScroll: 1, /*Кол-во скролов при клике*/
         fade: false,
-        arrows: false,
+        arrows: true,
         dots: true/*точки*/
     });
 
