@@ -379,7 +379,7 @@ summary {
 .b4 {
     height: 100vh;
     padding-top: 50px;
-    background: #d3a4a4;
+    background: #000;
 
 
 }
@@ -389,7 +389,7 @@ summary {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: #d31111;
+    background: #000;
 
 }
 
@@ -431,7 +431,7 @@ summary {
 
 .reviews_slider {/*чтобы слайдер не прыгал*/
     height: 100vh;/*высота слайдера*/
-    background: #2d4bcb;
+    background: #000;
 }
 
 .reviews_slider.slick_initialized { /*чтобы слайдер не прыгал*/

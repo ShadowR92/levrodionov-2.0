@@ -75,7 +75,7 @@ let slider = $("#reviewsSlider");
 
 
 
-});
+
 
 
 
@@ -84,7 +84,7 @@ let slider = $("#reviewsSlider");
 */
 function onToggle(event) {
     if (event.target.open) {
-        document.querySelectorAll(".accordion > details[open]").forEach((el) => {
+        document.querySelectorAll(".list > li > details[open]").forEach((el) => {
             // Исключаем из перебора елемент который мы только что открыли
             if (el === event.target) {
                 return;
@@ -98,7 +98,9 @@ function onToggle(event) {
 
 // Вешаем наблюдатель на все елементы <details> внутри акордиона
 document
-    .querySelectorAll(".accordion > details")
+    .querySelectorAll(".list > li > details")
     .forEach((el) => el.addEventListener("toggle", onToggle));
 
 
+
+});
